@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react'
-import { useAuth0 } from '@auth0/auth0-react'
+import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import { useUserContext } from '../context/user_context'
 import { useHistory } from 'react-router-dom'
